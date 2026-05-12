@@ -396,6 +396,15 @@ Learners should know which events and storage items prove the system works:
 The runbook should include commands or UI steps that inspect these values before
 and after the election.
 
+## Local Acceptance Runbook
+
+Use [demo-runbook.md](demo-runbook.md) as the maintainer acceptance path. It
+shows the storage items, events, extrinsics, and negative checks that prove the
+course chain is more than explanatory text. A complete submission should attach
+the runbook output, logs, or screenshots to show that nominations change later
+validator exposure and that rewards, slashes, chilling, unbonding, and locked
+transfer failures are observable.
+
 ## Security and Economics Notes
 
 - Do not copy Polkadot's staking parameters without analysis.
